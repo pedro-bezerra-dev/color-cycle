@@ -6,7 +6,7 @@
 
 ## Demonstration
 
-![demo](./public/video/demo.mp4)
+![demo](./public/images/demo.jpeg)
 
 ---
 
