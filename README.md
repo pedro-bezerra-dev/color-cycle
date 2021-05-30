@@ -6,7 +6,7 @@
 
 ## Demonstration
 
-![demo](./public/images/demo.jpeg)
+![demo](./public/images/demo.gif)
 
 ---
 
