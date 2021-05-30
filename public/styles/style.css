@@ -1,0 +1,133 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    transition: all .5s;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 60%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 20vh 0 10vh;
+    color: #000;
+    text-shadow: -1px 1px 0 #fff,
+                1px 1px 0 #fff,
+                1px -1px 0 #fff,
+                -1px -1px 0 #fff;
+}
+
+#container h1 {
+    font-size: 7rem;
+    position: fixed;
+    top: 4rem;
+}
+
+#container .box1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#container input {
+    border: 2px solid #000;
+    border-radius: .5rem;
+    height: 6rem;
+    padding: 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#container .insert-hex,
+#container .time-of-increment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 40%;
+}
+
+#container .insert-hex label,
+#container .time-of-increment label {
+    margin-bottom: 1rem;
+}
+
+#container .increment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 20vh;
+}
+
+#container .increment .values-of-increment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 70%;
+}
+
+#container .increment .increment-value-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .increment-value-field label {
+    margin-right: 1rem;
+}
+
+#container .increment-value-field:nth-child(1) label {
+    color: red;
+}
+
+#container .increment-value-field:nth-child(2) label {
+    color: green;
+}
+
+#container .increment-value-field:nth-child(3) label {
+    color: blue;
+}
+
+#container .increment-value-field input {
+    width: 15rem;
+}
+
+#container button {
+    width: 15rem;
+    height: 5rem;
+
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    color: #000;
+    cursor: pointer;
+    transition: .1s;
+}
+
+#container button:hover {
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5),
+                -2px 0px 5px rgba(0, 0, 0, 0.5);
+}
